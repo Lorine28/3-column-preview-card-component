@@ -90,6 +90,7 @@ body{
 .container button:hover{ 
     background-color:rgba(242, 242, 242, 0.075);
     color: var(--Transparent-white);
+    cursor:pointer;
 }
 
 .container img{
