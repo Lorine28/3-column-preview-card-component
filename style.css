@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Special+Elite&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    flex-direction: column;
+    font-family:  'Lexend Deca', sans-serif;
+    font-size: 15px;
+    background-color: var(--Very-light-gray);
+    /* color: var(--Transparent-white); */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+:root{
+--Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Verydark-cyan: hsl(179, 100%, 13%);
+
+--Transparent-white: hsla(0, 0%, 100%, 0.75);
+--Very-light-gray: hsl(0, 0%, 95%, 1);
+}
+
+.attribution{
+ font-size: 11px; text-align: center;
+ color: var(--Verydark-cyan);
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+.container{
+    max-width: 700px;
+    align-items: center;
+    padding: 120px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+.container div{
+    padding: 30px; 
+}
+
+.container button{
+    background-color: var(--Transparent-white);
+    font-size: 10px;
+    padding: 8px;
+    width: 100px;
+    border-radius: 30px;
+    margin-top: 50px;
+    display: inline-block;
+    border: 2px solid var(--Transparent-white);
+    transition: all .4s ease-in-out;
+    }
+
+ .container button a{
+     text-decoration: none; 
+     font-family:'Lexend Deca', sans-serif;
+ }
+.sedan{
+    background-color: var(--Bright-orange);
+}
+
+.sedan button{
+    color: var(--Bright-orange);
+}
+
+.suv{
+    background-color: var(--Dark-cyan);
+}
+
+.suv button{
+    color: var(--Dark-cyan);
+}
+
+.lux{
+    background-color: var(--Verydark-cyan);
+}
+
+.lux button{
+    color: var(--Verydark-cyan);
+}
+
+.container button:hover{ 
+    background-color:rgba(242, 242, 242, 0.075);
+    color: var(--Transparent-white);
+}
+
+.container img{
+    width: 3.5em;
+}
+
+h1{
+    padding-bottom: 12px;
+    font-family:'Big Shoulders Display';
+    font-weight: 700;
+    padding-top: 12px;
+    color: var(--Transparent-white);
+}
+
+p{
+    font-family:'Lexend Deca', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    color: var(--Transparent-white);
+}
+
+
+@media only screen and (max-width:768px){
+.container{
+    grid-template-columns: 1fr;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 425px){
+    .container{
+        padding: 10px;
+    }
+
+}
+
+    
+   
+
+    
