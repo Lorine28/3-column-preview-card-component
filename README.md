@@ -3,5 +3,6 @@
 In this project i used 
 
 :root variables <br>
-Transition
-
+Transition <br>
+css Grid <br>
+display in-line block <br>
